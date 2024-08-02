@@ -1,0 +1,29 @@
+###
+
+POST http://localhost:4000/api/signup
+Content-Type: application/json
+
+{
+    "phone": 9174996712,
+    "password": "zishan6708"
+}
+
+###
+
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "phone": 9174996712,
+    "password": "zish6708"
+}
+
+###
+
+POST http://localhost:4000/reset-password
+Content-Type: application/json
+
+{
+    "phone": 9174996712,
+    "newPassword": "zish6708"
+}
